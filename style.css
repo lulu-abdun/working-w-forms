@@ -1,0 +1,30 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#background{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    background-color: #9d81e6;
+}
+
+h1{
+    color: #9d81e6;
+}
+
+p{
+    color: gray;
+}
+
+button{
+    background-color: #9d81e6;
+    color: white;
+}
+
+a{
+    color: #9d81e6;
+}
+
+form{
+    text-align: center;
+}
