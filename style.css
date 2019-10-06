@@ -1,14 +1,16 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://res.cloudinary.com/defkcpwiw/image/upload/v1570316558/Screen_Shot_2019-10-05_at_5.58.17_PM_woofqm.png")
 }
 
-#background{
+/* #background{
     display: grid;
     grid-template-rows: 200px 200px;
     background-color: #9d81e6;
-}
+} */
 
-h1{
+
+h2{
     color: #9d81e6;
 }
 
@@ -30,6 +32,8 @@ a{
 
 .login{
     text-align: center;
+    border-radius: 20px;
+    background-color: white;
 }
 
 input[type=text] {
@@ -44,7 +48,12 @@ input[type=text] {
 
   .white-box {
     display: grid;
-    grid-template-columns: 200px 500px;
-    grid-template-rows: 200px 100px 400px;
+    grid-template-columns: repeat(2, 250px);
+    /* grid-template-rows: 200px 100px 400px; */
     grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    border: red 2px dashed;
   }
