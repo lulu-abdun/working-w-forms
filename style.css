@@ -1,59 +1,81 @@
+/* Background and Font Settings */
+
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("https://res.cloudinary.com/defkcpwiw/image/upload/v1570316558/Screen_Shot_2019-10-05_at_5.58.17_PM_woofqm.png")
+    background-image: url("https://res.cloudinary.com/defkcpwiw/image/upload/v1570409281/real-background_jp5avh.png")
 }
 
-/* #background{
-    display: grid;
-    grid-template-rows: 200px 200px;
-    background-color: #9d81e6;
-} */
-
+/* Headings */
 
 h2{
-    color: #9d81e6;
+    color: #828ad5;
 }
 
 p{
     color: gray;
 }
 
-button{
-    background-color: #9d81e6;
-    color: white;
-    border-radius: 30px;
-    width: 100px;
-    height: 30px;
-}
+/* Form */
 
-a{
-    color: #9d81e6;
+.notbold{
+    font-weight:normal
+}​
+
+.extra a{
+    color: #828ad5;
 }
 
 .login{
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
+    width: 300px;  
 }
 
 input[type=text] {
     border: none;
     border-bottom: 2px solid gray;
-  }
+    font-size: 1rem;
+}
 
   input[type=password] {
     border: none;
     border-bottom: 2px solid gray;
+    font-size: 1rem;
   }
 
   .white-box {
     display: grid;
     grid-template-columns: repeat(2, 250px);
-    /* grid-template-rows: 200px 100px 400px; */
-    grid-gap: 20px;
+    grid-template-rows: 750px;
+    grid-gap: 100px;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: auto;
-    border: red 2px dashed;
   }
+
+  .container{
+      color: gray;
+      text-align: left;
+  }
+
+  #wrong{
+      color:red;
+  }
+
+  .extra{
+      color: gray;
+  }
+
+/* Button */
+
+button{
+    background-color: #828ad5;
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+}
+
